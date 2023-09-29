@@ -17,7 +17,7 @@ $(function () {
     }
     //create walls
     createPlatform(-50, -50, canvas.width + 100, 50); //top
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
+    createPlatform(-50, canvas.height - 10, canvas.width + 500, 500); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
 
@@ -52,6 +52,7 @@ createPlatform(600,400,100,5)
 createPlatform(1250,300,100,50)
 createPlatform(1075,380,100,5)
 createPlatform(870,620,100,5)
+createPlatform(1300,300,100,50)
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
@@ -68,9 +69,13 @@ createPlatform(870,620,100,5)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-    createCannon("left",600,500,50,50)
-    createCannon("bottom",700,0,50,50)
-    createCannon("top",900,0,50,50)
+    createCannon("left",600,0,50,50)
+    createCannon("bottom",700,800,50,50)
+    createCannon("top",900,800,50,50)
+    createCannon("top",300,800,50,50)
+    createCannon("bottom",300,800,50,50)
+    createCannon("bottom",1150,800,50,50)
+    createCannon("top",1200,800,50,50)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
