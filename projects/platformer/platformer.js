@@ -51,7 +51,6 @@ createPlatform(120,450,100,5)
 createPlatform(600,400,100,5)
 createPlatform(1250,300,100,50)
 createPlatform(1075,380,100,5)
-createPlatform(870,620,100,5)
 createPlatform(1300,300,100,50)
     // TODO 2
     // Create collectables
@@ -74,8 +73,8 @@ createPlatform(1300,300,100,50)
     createCannon("top",900,800,50,50)
     createCannon("top",300,800,50,50)
     createCannon("bottom",300,800,50,50)
-    createCannon("bottom",1150,800,50,50)
-    createCannon("top",1200,800,50,50)
+    createCannon("bottom",1150,1000,50,50)
+    createCannon("top",1200,1000,50,50)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
