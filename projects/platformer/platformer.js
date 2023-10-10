@@ -47,11 +47,13 @@ $(function () {
 createPlatform(20,500,100,5);
 createPlatform(500,500,100,5)
 createPlatform(1000,500,100,5) 
-createPlatform(120,450,100,5) 
+createPlatform(120,600,100,5) 
 createPlatform(600,400,100,5)
 createPlatform(1250,300,100,50)
 createPlatform(1075,380,100,5)
 createPlatform(1300,300,100,50)
+createPlatform(-50,600,100,5)
+createPlatform(200,500,100,5)
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
@@ -61,6 +63,7 @@ createPlatform(1300,300,100,50)
     createCollectable("steve", 300,300,0,0)
     createCollectable("steve", 500,300,0,0)
     createCollectable("steve", 750,200,0,0.4)
+    createCollectable("steve", 10,560,0,0)
     createCollectable("steve", 1250,100,1,0.5)
     // TODO 3
     // Create cannons
@@ -71,8 +74,8 @@ createPlatform(1300,300,100,50)
     createCannon("left",600,0,50,50)
     createCannon("bottom",700,800,50,50)
     createCannon("top",900,800,50,50)
-    createCannon("top",300,800,50,50)
-    createCannon("bottom",300,800,50,50)
+    
+    createCannon("bottom",300,1000,50,50)
     createCannon("bottom",1150,1000,50,50)
     createCannon("top",1200,1000,50,50)
     /////////////////////////////////////////////////
