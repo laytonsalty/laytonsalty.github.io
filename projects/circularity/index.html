@@ -25,6 +25,16 @@
         
         <style type="text/css">
             /*override default styles here*/
+            button {
+                top: 75%;
+                left: 50%;
+                background-color: transparent;
+                text-decoration: white;
+            }
+            canvas{
+                height: 900px;
+                width: auto;
+            }
         </style>
         
     </head>
@@ -38,9 +48,8 @@
                 window.opspark.makeGame();
             })();
         </script>
-        <span id="time"></span>
- 
-        <p class='align' align="center"><button type="menu" onClick="changeBackground();">Change Color</button></p>
+        <p align="center"><button type="menu" onClick="changeBackground();">Change Color</button></p>
+
       <script id="jsbin-javascript">
       var colors = ['#760CE8', 
               '#4782B1', 
