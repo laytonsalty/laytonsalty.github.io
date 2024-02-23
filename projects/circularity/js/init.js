@@ -30,7 +30,11 @@ var init = function (window) {
         circles.push(circle);
 
         // TODO 3 / 7 : Call the drawCircle() function 
-        drawCircle()
+        drawCircle(0)
+        drawCircle(1)
+        drawCircle(2)
+        drawCircle(3)
+        drawCircle(4)
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -43,13 +47,24 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
+            for(var i = 0; i > circles.length; i++){
 
+            }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+            physikz.updatePosition(circles[0]);
+            physikz.updatePosition(circles[1]);
+            physikz.updatePosition(circles[2]);
+            physikz.updatePosition(circles[3]);
+            physikz.updatePosition(circles[4]);
 
             // TODO 9 : Iterate over the array
-           
+
+game.checkCirclePosition(/* Your Bracket Notation HERE */);
+game.checkCirclePosition(/* Your Bracket Notation HERE */);
+game.checkCirclePosition(/* Your Bracket Notation HERE */);
+game.checkCirclePosition(/* Your Bracket Notation HERE */);
+game.checkCirclePosition(/* Your Bracket Notation HERE */);
             
         }
     
