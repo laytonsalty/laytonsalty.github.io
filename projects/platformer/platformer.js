@@ -47,6 +47,7 @@ $(function () {
 createPlatform(20,500,100,5)
 createPlatform(500,500,100,5)
 createPlatform(1000,500,100,5) 
+createPlatform(1200,630,100,5)
 createPlatform(120,600,100,5) 
 createPlatform(600,400,100,5)
 createPlatform(1250,300,100,50)
@@ -77,8 +78,8 @@ createPlatform(200,500,100,5)
     createCannon("top",900,800,50,50)
     createCannon("top",200,1000,50,50)
     createCannon("bottom",300,1000,50,50)
-    createCannon("bottom",1150,1000,50,50)
-    createCannon("top",1200,1000,50,50)
+    createCannon("bottom",1150,1800,50,50)
+    createCannon("top",1200,1800,50,50)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
