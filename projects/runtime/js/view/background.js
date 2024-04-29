@@ -42,7 +42,17 @@ var background = function (window) {
             var backgroundFill = draw.rect(canvasWidth,canvasHeight,'#659ffc');
             background.addChild(backgroundFill);
             // TODO 2: - Add a moon and starfield
-            
+            var moon = draw.bitmap("img/moon.png");
+            moon.x = 1200;
+            moon.y = 0;
+            moon.scaleX = 2;
+            moon.scaleY = 2;
+            background.addChild(moon);
+
+            for (let index = 0; index < array.length; index++) {
+                const element = array[index];
+                
+            }
             
             // TODO 4: Part 1 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
             

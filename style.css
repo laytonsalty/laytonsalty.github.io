@@ -147,4 +147,7 @@ h2, h3 {
                           align-content: center;
                           justify-content: center;
                         }
+                        time {
+                          background-color: #fff;
+                        }
                     }
